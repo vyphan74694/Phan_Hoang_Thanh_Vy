@@ -15,7 +15,7 @@ namespace Phan_Hoang_Thanh_Vy
           * 3. write a function that increase each item of the array by adding it with 2
           * 4. print the array to screen (again). */
         {
-            public static void Main(string[] args)
+            public static void Main6(string[] args)
             {
                 Console.Write("Enter the number of items in the array: ");
                 int n = Convert.ToInt32(Console.ReadLine());

@@ -9,7 +9,7 @@ namespace Phan_Hoang_Thanh_Vy
     internal class Session04
     {
         
-            public static void Main()
+            public static void Main4()
             {
                 Session_04_Exercise_game();
             }

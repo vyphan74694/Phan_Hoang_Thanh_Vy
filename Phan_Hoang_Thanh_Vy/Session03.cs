@@ -9,7 +9,7 @@ namespace Phan_Hoang_Thanh_Vy
     internal class Session03
     {
        
-            private static void Main(string[] args)
+            private static void Main3(string[] args)
             {
                 Question_04();
                 Console.ReadKey();

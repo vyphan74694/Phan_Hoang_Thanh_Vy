@@ -10,7 +10,7 @@ namespace Phan_Hoang_Thanh_Vy
     {
         
         
-            public static void Main()
+            public static void Main2()
             {
                 //Question_01();
                 //Question_02();

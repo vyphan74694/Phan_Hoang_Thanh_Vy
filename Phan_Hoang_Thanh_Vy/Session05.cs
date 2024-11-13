@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Phan_Hoang_Thanh_Vy
+/*namespace Phan_Hoang_Thanh_Vy
 {
     internal class Session05
     {
@@ -22,7 +22,7 @@ namespace Phan_Hoang_Thanh_Vy
                 swap(ref a, ref b);
                 Console.WriteLine($"After call a={a}, b={b}");
                 Console.ReadKey();
-            }*/
+            }
 
             static int maxofthreenumbers(int a, int b, int c)
             {
@@ -109,7 +109,7 @@ namespace Phan_Hoang_Thanh_Vy
                                 break;
                         } while (true);
                         Console.WriteLine("mai choi nua nhe!");
-                    }*/
+                    }
             public static void Main()
             {
                 //game_engine();
@@ -122,3 +122,4 @@ namespace Phan_Hoang_Thanh_Vy
         }
     }
 }
+*/
