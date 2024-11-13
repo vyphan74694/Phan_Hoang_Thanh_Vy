@@ -47,7 +47,29 @@ namespace Phan_Hoang_Thanh_Vy
         }
         static void TimGiaTriLonNhat(int[,] a)
         {
-            int max = a[0
+            int max = a[0,0];
+            for (int i = 0; i < a.GetLength(0); i++)
+            {
+                for (int j = 0; j < a.GetLength(1); j++)
+                {
+                    if (a[i, j] > max)
+                    {
+                        max = a[i, j];
+                    }
+                }
+            }
+        }
+        static void TimGiaTriNhoNhatCuaDong(int[,] a)
+        {
+            for (int i = 0; i<a.GetLength(0); i++)
+            {
+                int min = a[i,0];
+                for (int j = 0; j < a.GetLength(1);j++)
+                {
+                    if (a[i,j] < min)
+                    {     
+                }   
+            }   
         }
         static void Main(string[]args)
         {
