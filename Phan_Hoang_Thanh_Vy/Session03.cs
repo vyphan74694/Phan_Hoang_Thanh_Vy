@@ -33,9 +33,26 @@ namespace Phan_Hoang_Thanh_Vy
             public static void Question_03()
             {
                 Console.Write("Nhap so thu nhat: ");
+                 double num1 = double.Parse(Console.ReadLine());
                 Console.Write("Nhap so thu hai");
+                 double num2 = double.Parse(Console.ReadLine());
+                 double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double quotient = num1 / num2;
+        double remainder = num1 % num2;
+       
 
-            }
+        // Output the results
+        Console.WriteLine($"{num1} + {num2} = {sum}");
+        Console.WriteLine($"{num1} - {num2} = {difference}");
+        Console.WriteLine($"{num1} x {num2} = {product}");
+        Console.WriteLine($"{num1} / {num2} = {quotient}");
+        Console.WriteLine($"{num1} mod {num2} = {remainder}");
+    }
+
+
+            
 
             public static void Question_04()
             {
