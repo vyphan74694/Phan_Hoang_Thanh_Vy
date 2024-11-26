@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*namespace Phan_Hoang_Thanh_Vy
+namespace Phan_Hoang_Thanh_Vy
 {
     internal class Session05
     {
         internal class Session_05()
         {
-            /*public static void swap(ref int a, ref int b)
+            public static void swap(ref int a, ref int b)
             {
                 int tempt = a;
                 a = b; b = tempt;
             }
-            public static void Main()
+            public static void Main05()
             {
                 int a = 6, b = 7;
                 Console.WriteLine($"Before call a={a}, b={b}");
@@ -61,7 +61,7 @@ using System.Threading.Tasks;
 
 
 
-            /*class game_taixiu()
+            class game_taixiu()
                 {
                     static int rollDice()
                     {
@@ -122,4 +122,4 @@ using System.Threading.Tasks;
         }
     }
 }
-*/
+}
