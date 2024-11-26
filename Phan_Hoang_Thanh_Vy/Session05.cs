@@ -15,6 +15,7 @@ namespace Phan_Hoang_Thanh_Vy
                 int tempt = a;
                 a = b; b = tempt;
             }
+            
             public static void Main05()
             {
                 int a = 6, b = 7;
