@@ -61,6 +61,7 @@ namespace Phan_Hoang_Thanh_Vy
                 double x = Math.Pow(y, 2) + 2 * y + 1;
                 Console.Write($"x ={x}");
             }
+            
         
     }
 }
