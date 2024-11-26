@@ -55,10 +55,67 @@ namespace Phan_Hoang_Thanh_Vy
                 double m = feet * 0.3048;
                 Console.WriteLine($"{feet} ft = {m} m ");
             }
-            public static void Question_05()
-        { }
-
-
+            public static void Question_05_01()
+           // ConvertCelsiusToFahrenheit()
+         {
+        Console.Write("Enter temperature in Celsius: ");
+        double celsius = double.Parse(Console.ReadLine());
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        Console.WriteLine($"{celsius} Celsius = {fahrenheit} Fahrenheit");
+         }
+        public static void Question_05_02()
+        {
+            //ConvertFahrenheitToCelsius
     
+        Console.Write("Enter temperature in Fahrenheit: ");
+        double fahrenheit = double.Parse(Console.ReadLine());
+        double celsius = (fahrenheit - 32) * 5 / 9;
+        Console.WriteLine($"{fahrenheit} Fahrenheit = {celsius} Celsius");
+        }
+
+    public static void Question_06()
+    {
+        Console.WriteLine($"Size of int: {sizeof(int)} bytes");
+        Console.WriteLine($"Size of double: {sizeof(double)} bytes");
+        Console.WriteLine($"Size of char: {sizeof(char)} bytes");
+        Console.WriteLine($"Size of float: {sizeof(float)} bytes");
+        Console.WriteLine($"Size of long: {sizeof(long)} bytes");
+        Console.WriteLine($"Size of short: {sizeof(short)} bytes");
+        Console.WriteLine($"Size of byte: {sizeof(byte)} bytes");
     }
+    public static void Question_07()
+    {
+         Console.Write("Enter a character: ");
+        char character = Console.ReadKey().KeyChar;  // Read a single character
+        Console.WriteLine($"\nThe ASCII value of '{character}' is {(int)character}");
+    }
+     public static void Question_08()
+     {
+        Console.Write("Enter the radius of the circle: ");
+        double radius = double.Parse(Console.ReadLine());
+        double area = Math.PI * radius * radius;
+        Console.WriteLine($"Area of the circle with radius {radius} is {area}");
+     }
+    public static void Question_09()
+    {
+        Console.Write("Enter the side length of the square: ");
+        double side = double.Parse(Console.ReadLine());
+        double area = side * side;
+        Console.WriteLine($"Area of the square with side {side} is {area}");
+    }
+    public static void Question_10()
+    {
+    Console.Write("Enter the number of days: ");
+        int days = int.Parse(Console.ReadLine());
+
+        int years = days / 365;
+        int remainingDays = days % 365;
+        int weeks = remainingDays / 7;
+        remainingDays = remainingDays % 7;
+
+        Console.WriteLine($"{days} days is approximately {years} years, {weeks}");
+}
+    }
+
+  
 }
